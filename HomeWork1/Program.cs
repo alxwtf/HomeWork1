@@ -10,6 +10,13 @@ namespace HomeWork1
     {
         static void Main(string[] args)
         {
+            var Cars = new List<Cars>
+            {
+                new Car1(),
+                new Car2(),
+                new Car3()
+            };
+            foreach (var Car in Cars) ;
         }
     }
 }

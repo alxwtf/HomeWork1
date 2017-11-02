@@ -16,7 +16,6 @@ namespace HomeWork1
                 new Car2(),
                 new Car3()
             };
-            foreach (var Car in Cars) ;
         }
     }
 }
